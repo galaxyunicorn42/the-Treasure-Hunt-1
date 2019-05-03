@@ -1,0 +1,10 @@
+$(".show").hide();
+$(".hide").click(function(){
+    $(".hide").hide();
+    $(".show").show();
+});
+$(".last").hide();
+$(".show").click(function(){
+$(".show").hide();
+$(".last").show();
+});
